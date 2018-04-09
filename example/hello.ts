@@ -7,7 +7,7 @@ class C {
     this.name = name;
   }
 
-  //@autobind
+  @autobind
   f() {
     console.log("this:", this);
   }
