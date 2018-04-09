@@ -2,7 +2,7 @@
 
 An `@autobind` decorator for TypeScript that is created to "do one thing and do it well".
 
-## SYNOPSIS
+## Synopsis
 
 ```typescript
 import { autobind } from "@typed-decorators/autobind";
@@ -18,6 +18,13 @@ const foo = new Foo();
 const boundMethod = foo.method; // same as foo.method.bind(foo)
 boundMethod(); // displays foo
 ```
+
+## Caveats
+
+Decorators in TypeScript (as of v2.8) are experimental
+as http://www.typescriptlang.org/docs/handbook/decorators.html describes.
+
+Any specification may change without warnings.
 
 ## See Also
 
