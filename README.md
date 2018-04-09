@@ -23,6 +23,14 @@ const boundMethod = foo.method; // same as foo.method.bind(foo)
 boundMethod(); // displays foo
 ```
 
+## Install
+
+```shell-session
+npm install --save '@typed-decorators/autobind'
+```
+
+https://www.npmjs.com/package/@typed-decorators/autobind
+
 ## Caveats
 
 Decorators in TypeScript (as of v2.8) are experimental
