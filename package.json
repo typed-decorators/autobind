@@ -1,0 +1,22 @@
+{
+  "name": "@typed-decorators/autobind",
+  "version": "0.1.0",
+  "description": "A decorator to bind `this` context automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "decorators",
+    "bind"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "tslib": "*"
+  }
+}
