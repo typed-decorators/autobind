@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "A DOTADIW decorator for TypeScript to bind `this` context",
   "main": "dist/autobind.js",
+  "types": "dist/autobnd.d.ts",
   "scripts": {
+    "build": "tsc",
+    "prepublish": "npm build",
     "test": "ts-node test/*.test.ts"
   },
   "keywords": [
