@@ -7,9 +7,9 @@ class C {
   }
 }
 
-console.log('1..1'); // test anything protocol
+console.log("1..1"); // test anything protocol
 
 const c = new C();
 const f = c.f;
 console.assert(f() === c);
-console.log('ok 1')
+console.log("ok 1");

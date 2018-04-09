@@ -1,5 +1,8 @@
-
-export function autobind<F extends Function>(target: any, name: string, descriptor: TypedPropertyDescriptor<F>): TypedPropertyDescriptor<F> {
+export function autobind<F extends Function>(
+  target: any,
+  name: string,
+  descriptor: TypedPropertyDescriptor<F>,
+): TypedPropertyDescriptor<F> {
   const { enumerable, configurable, value } = descriptor;
 
   return {
