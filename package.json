@@ -1,20 +1,25 @@
 {
   "name": "@typed-decorators/autobind",
   "version": "0.1.0",
-  "description": "A decorator to bind `this` context automatically",
-  "main": "index.js",
+  "description": "A DOTADIW decorator for TypeScript to bind `this` context",
+  "main": "dist/autobind.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node test/*.test.ts"
   },
   "keywords": [
     "decorators",
     "bind"
   ],
-  "author": "",
+  "contributors": [
+    {
+      "name": "FUJI Goro",
+      "url": "https://github.com/gfx"
+    }
+  ],
   "license": "ISC",
   "devDependencies": {
-    "ts-node": "^5.0.1",
-    "typescript": "^2.8.1"
+    "ts-node": ">= 5.0.1",
+    "typescript": ">= 2.8.1"
   },
   "dependencies": {
     "tslib": "*"
