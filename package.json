@@ -19,6 +19,10 @@
       "url": "https://github.com/gfx"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typed-decorators/autobind"
+  },
   "license": "ISC",
   "devDependencies": {
     "ts-node": ">= 5.0.1",
