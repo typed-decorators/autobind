@@ -6,7 +6,7 @@
   "types": "dist/autobnd.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm build",
+    "prepublish": "npm run build",
     "test": "ts-node test/*.test.ts"
   },
   "keywords": [
