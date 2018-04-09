@@ -2,6 +2,8 @@
 
 An `@autobind` decorator for TypeScript that is created to "do one thing and do it well".
 
+This is an experimental module while the ES/TypeScript decorators are experimental.
+
 ## Synopsis
 
 ```typescript
