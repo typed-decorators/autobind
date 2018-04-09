@@ -1,5 +1,7 @@
 # @typed-decorators/autobind
 
+[![npm version](https://badge.fury.io/js/%40typed-decorators%2Fautobind.svg)](https://badge.fury.io/js/%40typed-decorators%2Fautobind)
+
 An `@autobind` decorator for TypeScript that is created to "do one thing and do it well".
 
 This is an experimental module while the ES/TypeScript decorators are experimental.
