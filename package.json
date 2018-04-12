@@ -8,7 +8,8 @@
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "test": "ts-node test/*.test.ts",
-    "format": "npx prettier --write example/*.ts src/*.ts test/*.ts"
+    "format": "npx prettier --write example/*.ts src/*.ts test/*.ts",
+    "lint": "npx tslint --project tsconfig.json"
   },
   "keywords": [
     "decorators",
@@ -27,6 +28,8 @@
   "license": "ISC",
   "devDependencies": {
     "ts-node": ">= 5.0.1",
+    "tslint": "*",
+    "tslint-config-prettier": "*",
     "typescript": ">= 2.8.1"
   },
   "dependencies": {

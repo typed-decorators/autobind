@@ -1,0 +1,11 @@
+{
+  "extends": [
+      "tslint-config-prettier"
+  ],
+  "rules": {
+      "no-default-export": true,
+      "no-var-keyword": true,
+      "prefer-object-spread": true,
+      "prefer-const": true
+  }
+}
