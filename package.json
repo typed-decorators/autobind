@@ -1,6 +1,6 @@
 {
   "name": "@typed-decorators/autobind",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "A DOTADIW decorator for TypeScript to bind `this` context",
   "main": "dist/autobind.js",
   "types": "dist/autobind.d.ts",
