@@ -9,8 +9,8 @@ clean:
 format:
 	npm run format
 
-test:
-	npm run test
+check:
+	prove --exec "npx ts-node" test/*.test.ts
 
 release:
 	# npm publish
