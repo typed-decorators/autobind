@@ -27,10 +27,10 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "ts-node": ">= 5.0.1",
+    "ts-node": ">= 7.0.0",
     "tslint": "*",
     "tslint-config-prettier": "*",
-    "typescript": ">= 2.8.1"
+    "typescript": ">= 3.0.0"
   },
   "dependencies": {
     "tslib": "*"

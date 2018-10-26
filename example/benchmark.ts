@@ -30,10 +30,10 @@ for (let i = 0; i < 1000000; i++) {
 }
 console.timeEnd("@autobind");
 
-console.time("nothing");
+console.time("Function#bind");
 for (let i = 0; i < 1000000; i++) {
   const o = new C(`nothing (${i})`);
-  const b = o.b.bind(this);
+  const b = o.b.bind(o);
   b();
 }
-console.timeEnd("nothing");
+console.timeEnd("Function#bind");

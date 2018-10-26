@@ -1,3 +1,5 @@
+const IDENTIFIER = `@typed-decorators/autobind`;
+
 export function autobind<F extends Function>(
   _target: any,
   name: string,
@@ -5,7 +7,7 @@ export function autobind<F extends Function>(
 ): TypedPropertyDescriptor<F> {
   const { enumerable, configurable, value } = descriptor;
 
-  const boundMethod = Symbol(`boundMethod.${name}`);
+  const boundMethod = Symbol(`${IDENTIFIER}/${name}`);
 
   return {
     enumerable,
