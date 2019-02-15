@@ -1,6 +1,6 @@
 const IDENTIFIER = `@typed-decorators/autobind`;
 
-export function autobind<F extends Function>(
+export function autobind<F extends (...args: Array<any>) => any>(
   _target: any,
   name: string,
   descriptor: TypedPropertyDescriptor<F>,
